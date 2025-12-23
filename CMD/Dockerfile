@@ -1,0 +1,1 @@
+CMD ["nginx", "-g" "deamon-off"]

@@ -1,5 +1,5 @@
 ARG version
-From almalinux:${version}
+From almalinux:${version:-9}
 ARG course="Devops " \
     Duration="120hrs" 
 RUN echo "course: $course, duration: $duration"
